@@ -1,0 +1,1 @@
+function e(e,t){return e===`pending_parse`?{label:`开始解析`,to:`/bids/generate`}:e===`pending_outline`?{label:`确认大纲`,to:`/bids/outline/${t}`}:e===`editing`?{label:`继续编辑`,to:`/bids/editor/${t}`}:{label:`查看项目`,to:`/bids/editor/${t}`}}export{e as t};

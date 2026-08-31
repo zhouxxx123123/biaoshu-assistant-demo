@@ -1,0 +1,1 @@
+function e(e){let t=`${e.title} ${e.sourceFileName??``}`;return/采购|货物|设备|物资/.test(t)?`货物采购`:/服务|运维|咨询/.test(t)?`服务项目`:/工程|施工|建设/.test(t)?`工程项目`:`综合项目`}export{e as t};
